@@ -1,7 +1,50 @@
+@media screen and (min-width: 100px) {
+    * {
+        min-height: 46px;
+        min-width: 46px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .app-bar .app-bar__brand {
+        margin-top: 10px;
+    }
+
+    header {
+        background-color: #9E6F21;
+        color: #fff;
+        margin: 0 auto;
+        padding: 20px auto;
+        height: 60px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
 @media screen and (min-width: 650px) {
     .app-bar {
         grid-template-columns: 1fr auto;
-        padding: 8px 32px;
+        padding: 8px 20px;
     }
 
     .app-bar .app-bar__brand h1 {
@@ -24,9 +67,32 @@
     .app-bar .app-bar__navigation ul li a {
         display: inline-block;
         width: 120px;
-        text-align: center;
+        text-align: right;
         margin: 0;
     }
+
+    ul {
+        margin-top: 2px;
+    }
+}
+
+@media screen and (min-width: 200px) {
+
+    .restaurant {
+        grid-template-columns: 1fr;
+    }
+
+    .restaurant .resto-detail__title,
+    .resto-detail__location {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .restaurant .resto-detail__overview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
 }
 
 @media screen and (min-width: 650px) {
@@ -48,7 +114,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 10px;
-        grid-row-gap: 16px;
+        grid-row-gap: 20px;
     }
 }
 
@@ -61,12 +127,24 @@
 @media screen and (min-width: 900px) {
     .list {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 
+        grid-template-columns: 1fr 1fr 1fr
     }
 }
 
 @media screen and (min-width: 1200px) {
     main {
         max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero {
+        background: url('/src/public/images/hero.jpg');
+    }
+}
+
+@media screen and (min-width: 651px) {
+    .hero {
+        background: url('/src/public/images/hero.jpg');
     }
 }

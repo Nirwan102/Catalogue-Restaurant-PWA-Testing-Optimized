@@ -1,40 +1,31 @@
-import "regenerator-runtime"; /* for async await transpile */
-import "../styles/main.css";
-import "../styles/responsive.css";
-import App from "./views/app";
+/* eslint-disable import/no-extraneous-dependencies */
+import 'regenerator-runtime';
+import '../styles/main.css';
+import '../styles/responsive.css';
+import App from './views/app';
+import swRegister from './utils/sw-register';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const app = new App({
-  button: document.querySelector("#hamburgerButton"),
-  drawer: document.querySelector("#navigationDrawer"),
-  content: document.querySelector("#mainContent"),
+  button: document.querySelector('#hamburgerButton'),
+  drawer: document.querySelector('#navigationDrawer'),
+  content: document.querySelector('#mainContent'),
 });
 
-window.addEventListener("hashchange", () => {
+const skipLink = document.querySelector('.skip_content');
+const mainContent = document.querySelector('#mainContent');
+skipLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  skipLink.blur();
+  mainContent.scrollIntoView({ behavior: 'smooth' });
+});
+
+window.addEventListener('hashchange', () => {
   app.renderPage();
 });
 
-window.addEventListener("load", () => {
+window.addEventListener('load', () => {
   app.renderPage();
+  swRegister();
 });
-
-// import('../DATA.json').then(({ default: dataJson }) => {
-//     console.log(dataJson);
-//     let datas = dataJson['restaurants'];
-//     let dataList = '';
-//     datas.forEach(function (data) {
-//         dataList += `
-//         <div class='list_item'>
-//             <img class='list_item_img' src='${data['pictureId']}' alt='${data['name']}' title='${data['name']}'>
-//             <div class='city'>${data['city']}</div>
-//             <div class='list_item_content'>
-//                 <p class='list_item_rating'>
-//                     Rating : <a href='#' class='list_rating_value'>${data['rating']}</a>
-//                 </p>
-//                 <h2 class='list_item_title'><a href='#'>${data['name']}</a></h2>
-//                 <div class='list_item_description'>${data['description'].slice(0, 150)}...</div>
-//             </div>
-//         </div>
-//         `;
-//     });
-//     document.querySelector('#data_list').innerHTML = dataList;
-// });

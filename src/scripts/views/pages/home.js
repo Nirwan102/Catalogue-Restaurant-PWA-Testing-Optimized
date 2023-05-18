@@ -1,5 +1,6 @@
-import RestaurantSource from "../../data/restaurant-source";
-import { createRestaurantItemTemplate } from "../templates/template-creator";
+/* eslint-disable operator-linebreak */
+import RestaurantSource from '../../data/restaurant-source';
+import { createRestaurantItemTemplate } from '../templates/template-creator';
 
 const Home = {
   async render() {
@@ -7,7 +8,7 @@ const Home = {
         <section class="content">
         <div class="main_content">
           <div><h1>Explore Restaurant</h1></div>
-          <div class="list" id="data_list"></div>
+          <div class="list" id="list"></div>
         </div>
       </section>
         `;
@@ -15,9 +16,7 @@ const Home = {
 
   async afterRender() {
     const restaurants = await RestaurantSource.getRestaurants();
-    console.log(restaurants);
-
-    const restaurantsContainer = document.querySelector(".list");
+    const restaurantsContainer = document.querySelector('.list');
     restaurants.forEach((restaurant) => {
       restaurantsContainer.innerHTML +=
         createRestaurantItemTemplate(restaurant);

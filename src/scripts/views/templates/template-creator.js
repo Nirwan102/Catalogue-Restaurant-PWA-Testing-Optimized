@@ -1,64 +1,59 @@
-import CONFIG from "../../globals/config";
+/* eslint-disable comma-dangle */
+/* eslint-disable indent */
+import CONFIG from '../../globals/config';
 
-const createRestaurantDetailTemplate = (restaurant) => `
-    <div class='restaurant__title'>
-        <h2>${restaurant.name}</h2>
-    </div>
-    <div class='restaurant__image'>
-        <img class='list_item_img' src='${
-          CONFIG.BASE_IMAGE_URL.small + restaurant.pictureId
-        }' alt='Restaurant ${restaurant.name}'>
-    </div>
-        <div class='restaurant__info'>
-            <h3>Information</h3>
-            <h4>Alamat</h4>
-            <p>${restaurant.address} ${restaurant.city}</p>
-            <h4>Categories</h4>
-            <p>${restaurant.categories
-              .map((key) => `<li>${key.name}</li>`)
-              .join("")}</p>
-            <h4>Menu</h4>
-            <h4>Makanan : </h4>
-            <p>${restaurant.menus.foods
-              .map((key) => `<li>${key.name}</li>`)
-              .join("")}</p>
-            <h4>Minuman : </h4>
-            <p> ${restaurant.menus.drinks
-              .map((key) => `<li>${key.name}</li>`)
-              .join("")}</p>
-            <h4>Rating</h4>
-            <p>${restaurant.rating}</p>
+const createRestaurantDetailTemplate = (detail) => `
+<img class="lazyload resto-detail__poster" tabindex="0" src="${
+  CONFIG.BASE_IMAGE_URL.small
+}${detail.pictureId}" />
+<h2 tabindex="0" class="resto-detail__title">${detail.name}</h2>
+<h3  tabindex="0" class="resto-detail__location">${detail.city}, ${
+  detail.address
+}</h3>
+<div class="resto-detail__info">    
+</div>
+<div tabindex="0" class="resto-detail__overview">
+  <h4 tabindex="0" class="resto-detail__description">Description</h4>
+  <p tabindex="0">${detail.description}</p>
+  <h4 tabindex="0" class="resto-detail__categories">Categories</h4>
+  <li tabindex="0">${detail.categories.map(
+    (category) => `
+          <span>${category.name}</span>
+        `
+  )}
+    </li>
+  <h4 tabindex="0" class="resto-detail__makanan">Menu Makanan</h4>
+  <li tabindex="0">${detail.menus.foods.map(
+    (food) => `
+          <span>${food.name}</span>
+        `
+  )}
+    </li>
+  <h4 tabindex="0" class="resto-detail__minuman">Menu Minuman</h4>
+  <li tabindex="0">${detail.menus.drinks.map(
+    (drink) => `
+          <span>${drink.name}</span>
+        `
+  )}
+    </li>
+  <h3 tabindex="0" class="resto-detail__review">Review</h3>
+   ${detail.customerReviews.map(
+     (review) => `
+        <div tabindex="0" class="detail-review-item">
+            <p class="review-name"><i class="fa fa-user-circle"></i>  ${review.name}</p>
+            <p class="review-date">${review.date}</p>
+          <div tabindex="0" class="review-body">
+            ${review.review}
+          </div>
         </div>
-
-        <div class='tab_container'>
-            <input checked='' id='tab1' name='tabs' type='radio'/>
-            <label for='tab1'>Description</label>
-            <input id='tab2' name='tabs' type='radio'/>
-            <label for='tab2'>Customer Reviews</label>
-
-            <div class='tab-content' id=''content1>
-                <p>${restaurant.description}</p>
-            </div>
-
-            <div tab='tab-content' id='content2'>
-            ${restaurant.customerReviews
-              .map(
-                (key) =>
-                  `<div class="card">
-              <h3>Nama : ${key.name}</h3>
-              <h4>"${key.review}"</h4>
-              <p>Tanggal : ${key.date}</p>
-              </div>  
-              `
-              )
-              .join("")}
-            </div>
-        </div>
+      `
+   )}
+</div>
 `;
 
 const createRestaurantItemTemplate = (restaurant) => `
     <div class='list_item'>
-        <img class='list_item_img' src='${
+        <img class='lazyload list_item_img' src='${
           CONFIG.BASE_IMAGE_URL.small + restaurant.pictureId
         }' alt='Restaurant ${restaurant.name}'>
         <div class='city'>${restaurant.city}</div>
@@ -76,4 +71,21 @@ const createRestaurantItemTemplate = (restaurant) => `
     </div>
 `;
 
-export { createRestaurantDetailTemplate, createRestaurantItemTemplate };
+const createLikeRestaurantButtonTemplate = () => `
+  <button aria-label="like this restaurant" id="likeButton" class="like">
+    <i class="fa fa-heart-o" aria-hidden="true"></i>
+  </button>
+`;
+
+const createUnlikeRestaurantButtonTemplate = () => `
+  <button aria-label="unlike this restaurant" id="likeButton" class="like">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+  </button>
+`;
+
+export {
+  createRestaurantDetailTemplate,
+  createRestaurantItemTemplate,
+  createLikeRestaurantButtonTemplate,
+  createUnlikeRestaurantButtonTemplate,
+};
