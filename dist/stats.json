@@ -1,8 +1,8 @@
 {
   "hash": "c8faf83fb3167dd04eea",
   "version": "5.78.0",
-  "time": 4511,
-  "builtAt": 1684510039302,
+  "time": 4302,
+  "builtAt": 1684510825375,
   "publicPath": "auto",
   "outputPath": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\dist",
   "assetsByChunkName": {
@@ -662,8 +662,8 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "issuerName": "./src/scripts/views/pages/detail.js",
+          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+          "issuerName": "./src/scripts/views/pages/like.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -681,16 +681,16 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+              "name": "./src/scripts/views/pages/like.js",
+              "id": 263
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 997,
-          "issuerId": 178,
+          "issuerId": 263,
           "chunks": [
             21
           ],
@@ -889,8 +889,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "issuerName": "./src/scripts/views/pages/detail.js",
+              "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+              "issuerName": "./src/scripts/views/pages/home.js",
               "issuerPath": [
                 {
                   "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -908,16 +908,16 @@
                   "id": 705
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-                  "name": "./src/scripts/views/pages/detail.js",
-                  "id": 178
+                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+                  "name": "./src/scripts/views/pages/home.js",
+                  "id": 750
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": null,
-              "issuerId": 178,
+              "issuerId": 750,
               "chunks": [],
               "assets": [],
               "reasons": [],
@@ -974,9 +974,9 @@
                   "id": 705
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-                  "name": "./src/scripts/views/pages/detail.js",
-                  "id": 178
+                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+                  "name": "./src/scripts/views/pages/home.js",
+                  "id": 750
                 },
                 {
                   "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\restaurant-source.js",
@@ -1090,9 +1090,9 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+              "name": "./src/scripts/views/pages/like.js",
+              "id": 263
             },
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -1438,8 +1438,8 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
+          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -1447,21 +1447,21 @@
               "id": 253
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-              "name": "./src/styles/main.css",
-              "id": 15
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+              "name": "./src/styles/responsive.css",
+              "id": 822
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
-              "id": 389
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
+              "id": 907
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 645,
-          "issuerId": 389,
+          "issuerId": 907,
           "chunks": [
             30
           ],
@@ -1570,8 +1570,8 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
+          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -1579,21 +1579,21 @@
               "id": 253
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-              "name": "./src/styles/main.css",
-              "id": 15
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+              "name": "./src/styles/responsive.css",
+              "id": 822
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
-              "id": 389
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
+              "id": 907
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 537,
-          "issuerId": 389,
+          "issuerId": 907,
           "chunks": [
             30
           ],
@@ -1794,9 +1794,9 @@
                   "id": 705
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-                  "name": "./src/scripts/views/pages/detail.js",
-                  "id": 178
+                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+                  "name": "./src/scripts/views/pages/like.js",
+                  "id": 263
                 },
                 {
                   "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -1868,9 +1868,9 @@
                   "id": 705
                 },
                 {
-                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-                  "name": "./src/scripts/views/pages/detail.js",
-                  "id": 178
+                  "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+                  "name": "./src/scripts/views/pages/like.js",
+                  "id": 263
                 },
                 {
                   "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -3532,8 +3532,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "issuerName": "./src/scripts/views/pages/detail.js",
+          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+          "issuerName": "./src/scripts/views/pages/like.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -3551,16 +3551,16 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+              "name": "./src/scripts/views/pages/like.js",
+              "id": 263
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 510,
-          "issuerId": 178,
+          "issuerId": 263,
           "chunks": [
             291
           ],
@@ -6994,8 +6994,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-      "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
+      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
       "issuerPath": [
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -7003,21 +7003,21 @@
           "id": 253
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-          "name": "./src/styles/main.css",
-          "id": 15
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+          "name": "./src/styles/responsive.css",
+          "id": 822
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
-          "id": 389
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
+          "id": 907
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 537,
-      "issuerId": 389,
+      "issuerId": 907,
       "chunks": [
         30
       ],
@@ -7125,8 +7125,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-      "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
+      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+      "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
       "issuerPath": [
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -7134,21 +7134,21 @@
           "id": 253
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-          "name": "./src/styles/main.css",
-          "id": 15
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\style-loader\\dist\\cjs.js!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+          "name": "./src/styles/responsive.css",
+          "id": 822
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\main.css",
-          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/main.css",
-          "id": 389
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[0].use[1]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\styles\\responsive.css",
+          "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./src/styles/responsive.css",
+          "id": 907
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 645,
-      "issuerId": 389,
+      "issuerId": 907,
       "chunks": [
         30
       ],
@@ -7651,8 +7651,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "issuerName": "./src/scripts/views/pages/detail.js",
+          "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+          "issuerName": "./src/scripts/views/pages/home.js",
           "issuerPath": [
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -7670,16 +7670,16 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+              "name": "./src/scripts/views/pages/home.js",
+              "id": 750
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": null,
-          "issuerId": 178,
+          "issuerId": 750,
           "chunks": [],
           "assets": [],
           "reasons": [],
@@ -7735,9 +7735,9 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+              "name": "./src/scripts/views/pages/home.js",
+              "id": 750
             },
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\restaurant-source.js",
@@ -7831,8 +7831,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-      "issuerName": "./src/scripts/views/pages/detail.js",
+      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+      "issuerName": "./src/scripts/views/pages/like.js",
       "issuerPath": [
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -7850,16 +7850,16 @@
           "id": 705
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+          "name": "./src/scripts/views/pages/like.js",
+          "id": 263
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 510,
-      "issuerId": 178,
+      "issuerId": 263,
       "chunks": [
         291
       ],
@@ -8129,8 +8129,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-      "issuerName": "./src/scripts/views/pages/detail.js",
+      "issuer": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+      "issuerName": "./src/scripts/views/pages/like.js",
       "issuerPath": [
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\index.js",
@@ -8148,16 +8148,16 @@
           "id": 705
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+          "name": "./src/scripts/views/pages/like.js",
+          "id": 263
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 997,
-      "issuerId": 178,
+      "issuerId": 263,
       "chunks": [
         21
       ],
@@ -8274,9 +8274,9 @@
           "id": 705
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\home.js",
+          "name": "./src/scripts/views/pages/home.js",
+          "id": 750
         },
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\restaurant-source.js",
@@ -8387,9 +8387,9 @@
           "id": 705
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+          "name": "./src/scripts/views/pages/like.js",
+          "id": 263
         },
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -8714,9 +8714,9 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+              "name": "./src/scripts/views/pages/like.js",
+              "id": 263
             },
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -8787,9 +8787,9 @@
               "id": 705
             },
             {
-              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+              "name": "./src/scripts/views/pages/like.js",
+              "id": 263
             },
             {
               "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -8996,9 +8996,9 @@
           "id": 705
         },
         {
-          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\views\\pages\\like.js",
+          "name": "./src/scripts/views/pages/like.js",
+          "id": 263
         },
         {
           "identifier": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\src\\scripts\\data\\favorite-restaurant-idb.js",
@@ -9508,8 +9508,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "c59c3701beeca454cdcb",
       "version": "5.78.0",
-      "time": 98,
-      "builtAt": 1684510034921,
+      "time": 88,
+      "builtAt": 1684510821192,
       "publicPath": "",
       "outputPath": "D:\\Dicoding Web Dev\\2. Expert Frond-End\\Latihan3-PWA\\restaurant-apps-nirwan\\dist",
       "assetsByChunkName": {},
