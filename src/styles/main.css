@@ -107,6 +107,7 @@ body {
   object-fit: cover;
   background-position: center;
   margin-top: -40px;
+  background-size: cover;
 }
 
 .hero-inner {
