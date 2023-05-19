@@ -1,6 +1,3 @@
-/* eslint-disable comma-dangle */
-/* eslint-disable no-plusplus */
-/* eslint-disable no-await-in-loop */
 const assert = require('assert');
 
 Feature('Liking Restaurant');
@@ -12,10 +9,13 @@ Before(({ I }) => {
 Scenario('showing empty liked restaurant', async ({ I }) => {
   I.see('Tambahkan Daftar Restoran yang Anda Sukai', '.list');
   I.amOnPage('/');
+  I.wait(1);
   I.seeElement('.list_item_title');
+
   const firstRestaurant = locate('.list_item_title a').first();
   const firstRestaurantTitle = await I.grabTextFrom(firstRestaurant);
   I.click(firstRestaurant);
+  I.wait(1);
   I.seeElement('#likeButton');
 
   I.click('#likeButton');

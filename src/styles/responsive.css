@@ -137,14 +137,11 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
     .hero {
-        background: url('/src/public/images/hero.jpg');
-    }
-}
-
-@media screen and (min-width: 651px) {
-    .hero {
-        background: url('/src/public/images/hero.jpg');
+        min-height: 500px;
+        background: url('./images/hero-600.jpg');
+        background-size: cover;
+        background-position: center;
     }
 }

@@ -1,15 +1,12 @@
-/* eslint-disable import/no-extraneous-dependencies */
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 const ImageminMozjpeg = require('imagemin-mozjpeg');
 
+const path = require('path');
+
 module.exports = {
-  entry: {
-    app: path.resolve(__dirname, 'src/scripts/index.js'),
-    sw: path.resolve(__dirname, 'src/scripts/sw.js'),
-  },
+  entry: path.resolve(__dirname, 'src/scripts/index.js'),
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -25,6 +22,9 @@ module.exports = {
           },
           {
             loader: 'css-loader',
+            options: {
+              url: false,
+            },
           },
         ],
       },
@@ -63,10 +63,6 @@ module.exports = {
         {
           from: path.resolve(__dirname, 'src/public'),
           to: path.resolve(__dirname, 'dist'),
-          globOptions: {
-            // CopyWebpackPlugin mengabaikan berkas yang berada di dalam folder images
-            ignore: ['**/images/**'],
-          },
         },
       ],
     }),
