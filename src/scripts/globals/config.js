@@ -5,7 +5,7 @@ const CONFIG = {
     medium: 'https://restaurant-api.dicoding.dev/images/medium/',
     large: 'https://restaurant-api.dicoding.dev/images/large/',
   },
-  CACHE_NAME: new Date().toISOString,
+  CACHE_NAME: 'restaurant-catalogue',
   DATABASE_NAME: 'restaurant-catalogue-database',
   DATABASE_VERSION: 1,
   OBJECT_STORE_NAME: 'restaurants',
